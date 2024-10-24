@@ -1,6 +1,6 @@
 package com.example.a1demo
 
-import Snackbar2
+//import Snackbar2
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
