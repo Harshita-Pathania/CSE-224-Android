@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +18,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._1Demo"
         tools:targetApi="31">
+        <activity
+            android:name=".DialogBox3"
+            android:exported="true" />
+        <activity
+            android:name=".DialogBox2"
+            android:exported="true" />
+        <activity
+            android:name=".Rating"
+            android:exported="true" />
+        <activity
+            android:name=".DialogBox"
+            android:exported="true" />
+        <activity
+            android:name=".Camera"
+            android:exported="true" />
+        <activity
+            android:name=".AppPermissions"
+            android:exported="true" />
         <activity
             android:name=".AppChooser"
             android:exported="true" />
