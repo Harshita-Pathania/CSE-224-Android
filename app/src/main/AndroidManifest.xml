@@ -19,6 +19,12 @@
         android:theme="@style/Theme._1Demo"
         tools:targetApi="31">
         <activity
+            android:name=".PopupMenu"
+            android:exported="true" />
+        <activity
+            android:name=".ContextMenu"
+            android:exported="true" />
+        <activity
             android:name=".DialogBox3"
             android:exported="true" />
         <activity

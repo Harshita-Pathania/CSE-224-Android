@@ -27,22 +27,23 @@ class MenuBar : AppCompatActivity() {
         }
 
         override fun onOptionsItemSelected(item: MenuItem): Boolean {
-            return when (item.itemId){
+            return when (item.itemId) {
                 R.id.history -> {
                     Toast.makeText(this, "History clicked", Toast.LENGTH_LONG).show()
                     true
                 }
+
                 R.id.about -> {
-                    Toast.makeText(this, "About clicked",Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "About clicked", Toast.LENGTH_LONG).show()
                     true
                 }
+
                 R.id.settings -> {
                     Toast.makeText(this, "Settings clicked", Toast.LENGTH_LONG).show()
                     true
                 }
+
                 else -> super.onOptionsItemSelected(item)
             }
-
-
-    }
+        }
 }
